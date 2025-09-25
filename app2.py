@@ -1,3 +1,6 @@
+import streamlit as st
+
+# Fungsi perhitungan emisi karbon
 # Jejak Karbon Harian: Kalkulator Sederhana
 
 def calculate_transport_emissions(distance_km, mode):
@@ -72,3 +75,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
